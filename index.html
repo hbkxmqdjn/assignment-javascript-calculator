@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link href="stylesheets/index.css" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+		<script src="javascripts/controller.js"></script>
+		<script src="javascripts/model.js"></script>
+		<script src="javascripts/init.js" async></script>
+	</head>
+	
+	<body>
+		<div class="screen bottomScreen">
+			<p id="visualMemory">There's nothing saved in memory</p>
+		</div>
+		<div class="outside" name="outerDiv">
+			<div class="grid-container-darkgray" id="innerDiv">
+				<div class="display-high" id="display-upper"></div>
+				<div class="display-low" id="display"></div>
+				<div class="grid-item"><button class="button", id="percent">%</button></div>
+				<div class="grid-item"><button class="button", id="theme">Theme</button></div>
+				<div class="grid-item"><button class="button", id="C">C</button></div>
+				<div class="grid-item"><button class="button", id="DEL">Del</button></div>				
+				<div class="grid-item"><button class="button", id="memory_plus"> M+ </button></div>
+				<div class="grid-item"><button class="button", id="memory_minus"> M- </button></div>
+				<div class="grid-item"><button class="button", id="lp">(</button></div>
+				<div class="grid-item"><button class="button", id="rp">)</button></div>
+				<div class="grid-item"><button class="button", id="memory_clear">MC</button></div>			
+				<div class="grid-item"><button class="button", id="memory_recall">MR</button></div>	
+				<div class="grid-item"><button class="button", id="memory_store">MS</button></div>
+				<div class="grid-item"><button class="button", id="factorial">!</button></div>
+				<div class="grid-item"><button class="button", id="exponent">^</button></div>
+				<div class="grid-item"><button class="button", id="root">√(x)</button></div>
+				<div class="grid-item"><button class="button", id="ln">ln(x)</button></div>
+				<div class="grid-item"><button class="button buttonCal", id="divide">/</button></div>
+				<div class="grid-item"><button class="button", id="7">7</button></div>	
+				<div class="grid-item"><button class="button", id="8">8</button></div>	
+				<div class="grid-item"><button class="button", id="9">9</button></div>
+				<div class="grid-item"><button class="button buttonCal", id="multiply">x</button></div>
+				<div class="grid-item"><button class="button", id="4">4</button></div>	
+				<div class="grid-item"><button class="button", id="5">5</button></div>	
+				<div class="grid-item"><button class="button", id="6">6</button></div>
+				<div class="grid-item"><button class="button buttonCal", id="subtract">-</button></div>
+				<div class="grid-item"><button class="button", id="1">1</button></div>	
+				<div class="grid-item"><button class="button", id="2">2</button></div>	
+				<div class="grid-item"><button class="button", id="3">3</button></div>
+				<div class="grid-item"><button class="button buttonCal", id="add">+</button></div>	
+				<div class="grid-item"><button class="button", id="negate">+/-</button></div>	
+				<div class="grid-item"><button class="button", id="0">0</button></div>	
+				<div class="grid-item"><button class="button", id="point">.</button></div>	
+				<div class="grid-item"><button class="button buttonEquals", id="equals">=</button></div>		
+			</div>
+		</div>
+		
+	</body>
+</html>
