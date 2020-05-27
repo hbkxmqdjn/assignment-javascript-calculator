@@ -1,4 +1,4 @@
-### JavaScript Calculator
+# JavaScript Calculator
 Author: Robynn Ding
 
 ### HOW TO RUN:
